@@ -9,6 +9,20 @@ body {
 	padding-bottom: 20px;
 	width: auto !important;
 	overflow-x: hidden !important;
+	
+}
+
+.app-icon {
+	
+	max-width: 100px;
+	max-height: 100px;
+	padding: 10px 10px;
+}
+
+.bgimg {
+
+	background-image: url(../img/background.jpg);
+	max-width: none;
 }
 
 .container-narrow {
@@ -27,15 +41,22 @@ body {
 }
 
 .jumbotron {
+	width: auto;
+	max-width: 1000px;
 	margin: 5px 0;
 	text-align: center;
-	background-color:white;
+	background-color : transparent;
 }
 
 .jumbotron h1 {
 	font-size: 72px;
 	line-height: 1;
 	font-weight: bold;
+	color: white;
+}
+
+.jumbotron p {
+	color:white;
 }
 
 .jumbotron .btn {
@@ -50,6 +71,11 @@ body {
 
 .marketing p + h4 {
 	margin-top: 28px;
+}
+
+
+.navbar-header .navbar-brand {
+	color: white;
 }
 
 .featurette {
@@ -80,10 +106,3 @@ body {
 	margin-right: auto;
 }
 
-
-.app-icon {
-	
-	max-width: 100px;
-	max-height: 100px;
-	padding: 10px 10px;
-}
